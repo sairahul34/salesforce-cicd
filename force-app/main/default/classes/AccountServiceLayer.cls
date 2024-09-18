@@ -133,6 +133,10 @@ public with sharing class AccountServiceLayer {
             throw new ASLException(nae.getMessage());
         }
     }
+    /** 
+     *description creates default account object .demonstrate simple 
+     * usage of account object.
+     */
     public static Account createDefault() {
         Account acct = new Account();
         acct.name = 'Default Account';
